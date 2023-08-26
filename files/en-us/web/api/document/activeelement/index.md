@@ -11,8 +11,8 @@ browser-compat: api.Document.activeElement
 The **`activeElement`** read-only property
 of the {{domxref("Document")}} interface returns the {{domxref("Element")}} within the DOM that currently has focus.
 
-Often `activeElement` will return a {{domxref("HTMLInputElement")}} or
-{{domxref("HTMLTextAreaElement")}} object if it has the text selection at the time. If
+Often `activeElement` will return an {{domxref("HTMLInputElement")}} or
+an {{domxref("HTMLTextAreaElement")}} object if it has the text selection at the time. If
 so, you can get more detail by using the object's `selectionStart` and `selectionEnd` properties.
 Other times the focused element might be a {{HTMLElement("select")}} element (menu) or
 an {{HTMLElement("input")}} element.
